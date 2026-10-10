@@ -1,0 +1,7 @@
+{
+  "name": "RepoLore - Codebase Lore & Agent Skill Generator",
+  "description": "Turn any GitHub repository's PRs, review comments, and commit history into unwritten best practices, codebase lore, and exportable Agent Skills powered by Ollama and Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

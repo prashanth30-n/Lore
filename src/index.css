@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-page: #faf6ef; /* Vanilla Cream */
+    --card-surface: #ffffff;
+    --card-surface-cream: #fbf8f2;
+    --text-primary: #2b1d16; /* Walnut Brown dark */
+    --text-secondary: #685549; /* Walnut Brown muted */
+    --walnut-brown: #3d2a1f; /* Walnut Brown primary */
+    --walnut-brown-dark: #2b1e17; /* Deep Walnut Brown for sidebar */
+    --walnut-brown-border: #4d392d;
+    --buttercream: #fbf2d5; /* Buttercream highlight */
+    --buttercream-border: #eed68e;
+    --buttercream-text: #785611;
+    --buttercream-accent: #e8b030;
+    --powder-blue: #eaf3f8; /* Powder Blue */
+    --powder-blue-border: #b7d6e6;
+    --powder-blue-text: #1d5372;
+    --powder-blue-accent: #3882a8;
+    --border-subtle: #e8dfcf;
+  }
+
+  body {
+    background-color: #faf6ef;
+    color: #2b1d16;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom scrollbar in Walnut & Vanilla tones */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ded4c3;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bfaa95;
+}
